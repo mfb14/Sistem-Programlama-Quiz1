@@ -13,10 +13,10 @@ int main()
 	
 	sicaklikGuncelle(&sSensor,25,'C');
 	basincGuncelle(&bSensor,5,'b');
-/*
+
 	alarmSSinirAta(&sSensor,0,25.0);
 	alarmBSinirAta(&bSensor,0,3.5);
-*/
+
 	printf("Sicaklik ve Basinc:");
 	scanf("%f %f",&sSensor.sicaklik,&bSensor.basinc);
 	
